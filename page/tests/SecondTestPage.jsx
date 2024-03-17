@@ -10,9 +10,9 @@ function SecondTestPage() {
   const [isStart, setIsStart] = useState(false);
 
   useEffect(() => {
-    const fetchData = async () => {
+    const fetchData =  () => {
       try {
-        const response = await getTest();
+        const response =  getTest();
         setTestData(response);
       } catch (error) {
         console.error("Error fetching card data:", error);

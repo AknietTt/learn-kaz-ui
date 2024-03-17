@@ -14,9 +14,9 @@ function FirstTestPage() {
 
 
   useEffect(() => {
-    const fetchData = async () => {
+    const fetchData =  () => {
       try {
-        const response = await getAllCompare();
+        const response =  getAllCompare();
         setWords(response);
       } catch (error) {
         console.error("Error fetching card data:", error);

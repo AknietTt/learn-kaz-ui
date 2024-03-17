@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "learn-kaz",
-    "slug": "learn-kaz",
+    "name": "ertegiler",
+    "slug": "ertegiler",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon_2414.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/icon_2414.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -24,7 +24,7 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon_2414.png"
     }
   }
 }

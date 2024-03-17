@@ -11,9 +11,9 @@ function ThirdTestPage() {
   const [isStart, setIsStart] = useState(false);
 
   useEffect(() => {
-    const fetchData = async () => {
+    const fetchData =  () => {
       try {
-        const response = await getTestImage();
+        const response =  getTestImage();
         setTestData(response);
       } catch (error) {
         console.error("Error fetching card data:", error);

@@ -46,9 +46,9 @@ function MainPage() {
 
   useEffect(()=>{
     console.log("useEffect");
-    const fetchData = async () => {
+    const fetchData =  () => {
       try {
-        const response = await getAllBooks();
+        const response = getAllBooks();
         setBooks(response);
       } catch (error) {
         console.error("Error fetching card data:", error);
@@ -65,7 +65,7 @@ function MainPage() {
           <KittenText
             style={{ padding: 15, backgroundColor: "white", fontSize: 20 }}
           >
-            Кітаптар
+            Ертегілер
           </KittenText>
         </TouchableOpacity>
         <TouchableOpacity onPress={() => navigation.navigate("Nav")}>
