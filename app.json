@@ -4,10 +4,10 @@
     "slug": "ertegiler",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon_2414.png",
+    "icon": "./assets/icon_2422.PNG",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/icon_2414.png",
+      "image": "./assets/icon_2422.PNG",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.akniet007.ertegiler"
     },
     "web": {
-      "favicon": "./assets/favicon_2414.png"
+      "favicon": "./assets/favicon_2414.PNG"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "19fd8225-3136-4da8-b700-7b82a92d2c50"
+      }
     }
   }
 }
