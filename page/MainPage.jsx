@@ -65,7 +65,7 @@ function MainPage() {
           <KittenText
             style={{ padding: 15, backgroundColor: "white", fontSize: 20 }}
           >
-            Кітаптар
+            Ертегілер
           </KittenText>
         </TouchableOpacity>
         <TouchableOpacity onPress={() => navigation.navigate("Nav")}>
